@@ -2981,10 +2981,22 @@ h3.underline {
     display: inline-block;
     border-bottom: solid 2px #fff
 }
-
+.s_bor {
+    display: flex;
+    justify-content: center;
+}
 h3.s_border {
     display: inline-block;
     border: solid 3px rgba(0, 0, 0, .1);
+    padding: 10px 20px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    margin-bottom: 40px;
+}
+.s_s_bor {
+  
+    border:solid 3px rgb(64 64 64);
     padding: 10px 20px;
     border-radius: 3px;
     -moz-border-radius: 3px;
