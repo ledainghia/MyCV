@@ -883,7 +883,7 @@ section.dark {
 footer {
     background: #000000;
     color: #fff;
-    padding: 40px 0 40px 0
+    padding: 0 0 0 0;
 }
 
 footer.footer-light {
@@ -896,7 +896,7 @@ footer.footer-light a {
 }
 
 footer.footer-black {
-    background: #222
+    background: rgb(12, 12, 12)
 }
 
 .de_light footer h5,
@@ -907,7 +907,7 @@ footer h5 {
 }
 
 footer a {
-    color: #fff;
+    color: var(--primary-color);
     text-decoration: none !important
 }
 
@@ -12700,6 +12700,12 @@ img {
     .display-table [class*=col-] {
         display: block
     }
+}
+.copyright-area {
+	padding: 15px 0;
+	text-align: center;
+	border-top: 1px solid black;
+	color: var(--dark);
 }
 
 @media only screen and (min-width:480px) and (max-width:767px) {
