@@ -10449,7 +10449,8 @@ a.read_more i {
 
 .typed,
 .typed-strings {
-    display: inline-block
+    display: inline-block;
+    color: white;
 }
 
 .typed-strings p {
