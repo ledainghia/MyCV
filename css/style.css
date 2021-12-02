@@ -1492,7 +1492,7 @@ header.header-for-mobile {
 .post-text h4 a {
     text-decoration: none;
     font-size: 18px
-    color:#000000;
+    color: #000000;
 }
 
 .dark .post-text h4 a {
@@ -7295,21 +7295,21 @@ img.img-auto {
 img.img-rounded {
     border-radius: 3px;
     -moz-border-radius: 3px;
-    -webkit-border-radius: 3px
+    -webkit-border-radius: 3px;
 }
 
 .box-rounded {
     border-radius: 10px;
     -moz-border-radius: 10px;
-    -webkit-border-radius: 10px
+    -webkit-border-radius: 10px;
 }
 
 .img-profile {
-    border: solid 3px #fff
+    border: solid 3px #fff;
 }
 
 table thead {
-    font-weight: 700
+    font-weight: 700;
 }
 
 p.lead {
@@ -7320,54 +7320,54 @@ p.lead {
 }
 
 p.sub {
-    font-size: 14px
+    font-size: 14px;
 }
 
 .panel-group {
-    opacity: .8
+    opacity: .8;
 }
 
 .panel-body,
 .panel-heading {
     background: #27282b;
     border: solid 1px #202220;
-    border-radius: 0
+    border-radius: 0;
 }
 
 .panel-body {
-    border-top: none
+    border-top: none;
 }
 
 .progress {
-    background: #27282b
+    background: #27282b;
 }
 
 .panel-heading h4 a {
-    display: block
+    display: block;
 }
 
 .panel-heading h4 a:hover {
-    color: #eceff3
+    color: #eceff3;
 }
 
 .panel-collapse,
 .panel-default,
 .panel-group .panel {
     border: none;
-    border-radius: 0
+    border-radius: 0;
 }
 
 .panel-heading {
-    background: #222
+    background: #222;
 }
 
 .table-bordered,
 .table-bordered td {
-    border: solid 1px #202220
+    border: solid 1px #202220;
 }
 
 blockquote {
-    font-family: var(--font-general);;
+    font-family: var(--font-general);
     font-size: 26px;
     font-style: normal;
     font-weight: bold;
@@ -7387,7 +7387,7 @@ blockquote span {
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    margin-top: 20px
+    margin-top: 20px;
 }
 
 blockquote.s2 {
@@ -7398,7 +7398,7 @@ blockquote.s2 {
     margin-top: 20px;
     border-radius: 3px;
     -moz-border-radius: 3px;
-    -webkit-border-radius: 3px
+    -webkit-border-radius: 3px;
 }
 
 blockquote.s2:before {
@@ -7406,7 +7406,7 @@ blockquote.s2:before {
     content: "\f10e";
     font-style: normal;
     position: absolute;
-    margin-left: -30px
+    margin-left: -30px;
 }
 
 blockquote.s1 {
@@ -7421,7 +7421,7 @@ blockquote.s1:before {
     z-index: -1;
     font-size: 40px;
     top: 0;
-    left: 0
+    left: 0;
 }
 
 .collapsible-link::before {
@@ -11552,13 +11552,13 @@ a.btn-slider:hover {
     background: 0 0;
     border: none;
     box-shadow: none;
-    margin: 0
+    margin: 0;
 }
 
 .control-slider {
     float: right;
     display: inline-block;
-    margin-right: -10px
+    margin-right: -10px;
 }
 
 .next-slider,
@@ -12439,7 +12439,7 @@ img {
     .table [class*=col-] {
         float: none;
         display: block;
-        vertical-align: top
+        vertical-align: top;
     }
 
     .table-pricing tbody tr,
